@@ -1,0 +1,37 @@
+
+#kagyu_header {
+    height: 1em;
+    margin: 0.5em 0em;
+    position: relative;
+    overflow: visible;
+}
+#kagyu_header .logo {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 20em;
+}
+#kagyu_header .logo .firewheel{
+    float: right;
+    display: block;
+    height: 2em;
+    right: 0;
+}
+#kagyu_header hr {
+    border-top: 1px solid red;
+}
+#kagyu_header .logo span {
+    float: right;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: red;
+    line-height: 1.0em;
+    text-align: right;
+    background: white;
+    padding: 0em 0.4em;
+}
+#kagyu_header .logo span b {
+    font-size: 0.6em;
+}
