@@ -1,37 +1,113 @@
+/**
+ * kagyu red (based on CMYK conversion, doesn't look like that though) #d90026
+ * really it's #EE1122
+ * PT Sans instead of Myriad Pro. Closest font in Google Font
+ **/
 
-#kagyu_header {
-    height: 1em;
-    margin: 0.5em 0em;
-    position: relative;
-    overflow: visible;
+
+/* Basic text formatting */
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #727272;
 }
-#kagyu_header .logo {
-    position: absolute;
+
+a {
+    text-decoration: none;
+    color: #EE1122;
+}
+p {
+    margin: 1em 0;
+}
+.unstyled-list {
+    list-style-type: none;
+}
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #EE1122;
+    text-align: center;
+}
+h3 {
+    font-size: 1.4em;
+    color: inherit;
+    text-align: center;
+}
+.sidebar h3 {
+    text-align: left;
+}
+h4 {
+    font-size: 1.6em;
+    color: #EE1122;
+    text-align: left;
+    font-weight: bold;
+}
+a.big-red-button {
+    background-color: #EE1122;
+    border-radius: 5px;
+    font-size: 1.8em;
     display: block;
-    right: 0;
-    top: 0;
-    width: 20em;
+    margin: 1em auto;
+    color: white;
+    padding: 0.5em 1em;
+    max-width: 340px;
+    text-align: center;
 }
-#kagyu_header .logo .firewheel{
-    float: right;
+.centered-text {
+    text-align: center;
     display: block;
-    height: 2em;
-    right: 0;
+    width: 100%;
+    font-size: 1.4em;
 }
-#kagyu_header hr {
-    border-top: 1px solid red;
+.highlighted {
+    color: #EE1122;
 }
-#kagyu_header .logo span {
-    float: right;
-    display: block;
+.button-text {
     font-size: 1em;
-    text-transform: uppercase;
-    color: red;
-    line-height: 1.0em;
-    text-align: right;
-    background: white;
-    padding: 0em 0.4em;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    max-width: 340px;
+    margin: -0.5em auto 0em;
 }
-#kagyu_header .logo span b {
-    font-size: 0.6em;
+#logo-top {
+    border-bottom: 1px solid #EE1122;
+    margin: 0 0 15px;
+}
+#logo-top #dwb-logo {
+    width: 235px;
+    height: 47px;
+    background: url(../images/01-logo@2x.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 13px;
+    float: right;
+}
+/* top menu */
+.navbar-list {
+    margin: 0.8em 0;
+    height: 1.8em;
+}
+.navbar-list li:first-child {
+    margin-left: 0;
+}
+.navbar-list li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 0em 1em;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: #727272;
+}
+.main-photo,
+.article-photo {
+    margin-bottom: 1em;
+    width: 100%;
+}
+.center-map {
+ width: 100%;
 }
