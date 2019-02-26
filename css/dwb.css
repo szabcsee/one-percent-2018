@@ -10,6 +10,7 @@ body {
     font-family: 'Maven Pro', sans-serif;
     font-size: 16px;
     color: #727272;
+    text-align: justify;
 }
 .sidebar {
     font-size: 14px;
@@ -76,7 +77,8 @@ a.big-red-button {
     font-style: italic;
     text-align: left;
     display: block;
-    max-width: 340px;
+    /* max-width: 340px; */
+    text-align: center;
     margin: -0.5em auto 0.7em;
 }
 #logo-top {
